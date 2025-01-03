@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Helvetica Neue";
+}
+.headermain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+}
+.headermenu{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    padding: 0px 462px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+    background: rgba(245, 245, 247, 0.80);
+    backdrop-filter: blur(10px);  
+    gap:24px ; 
+    position: fixed; 
+    z-index: 1;
+}
+.menutext{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 500% */
+    letter-spacing: -0.28px; 
+}.headertext{
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 13.891px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.59px; /* 148.229% */
+    letter-spacing: -0.374px;
+}
+.headtextmain{
+    position: relative;
+    padding-top: 44px;
+    display: flex;
+    justify-content: center;
+    background: #FFF;
+    width: 100%;
+    height: 44px;
+    align-items: center;
+    gap: 6px;
+}
+.shopstyle{
+    color: #06C;
+    font-family: Inter;
+    font-size: 13.781px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.59px; /* 149.406% */
+    letter-spacing: -0.374px;
+}
+#header2background{
+     width: 100%;
+     height: 75px;
+     background: #F5F5F7;
+}
+#storemain{
+     width: 100% ;
+     height: 248px;
+     background: linear-gradient(0deg, #F5F5F7 0%, #F5F5F7 100%), #FFF;
+     display: flex;
+    }
+    .storenavmain{ 
+        width: 100% ;
+        height: 248px;
+        display: flex;
+        justify-content: center;
+        gap:780px  ;
+    }
+    .storenavtextmain{
+        padding-top: 77px;
+        padding-left: 140px;
+        width: 640px;
+        height: 196px;
+        justify-content: center;
+        display: flex;
+}
+.storenavtext1{
+    font-family: "Helvetica Neue";
+    font-size: 43.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.01px; /* 118.541% */
+    letter-spacing: -0.144px;
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.storenavtext2{
+    color: #6E6E73;
+    font-family: "Helvetica Neue";
+    font-size: 43.875px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.01px; /* 118.541% */
+    letter-spacing: -0.144px;
+}
+.asistantmain{
+     display: flex;
+     flex-direction: column;
+     gap: 18px;
+     padding-top: 90px;
+}
+
+.asistant{
+     display: flex;
+     justify-content:center;
+}
+.asistantlogo{
+    width: 25px;
+    font-size: 43.875px;
+    height: 25px;
+    border-radius: 50%;
+}
+.asistanttext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.asistanttext1{
+    width: 140.56px;
+    height: 20px;
+    color: #1D1D1F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.224px;
+    font-family: "inter";
+}
+.asistanttext2{
+    height: 16px;
+    color: #06C;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    display: flex;
+}
+#section1items1main{
+    display: flex;
+    width: 100%;
+    height: 198px;
+    background: linear-gradient(0deg, #F5F5F7 0%, #F5F5F7 100%), #FFF;
+}
+.itemsmaindiv{
+    display: flex;
+    gap: 10px ;
+    width: 100%;
+    padding: 10px 184px 40px 140px ;
+}
+.items-texts{
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.224px;
+    text-align: center;
+}
+.items-main{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+}
+.item1-zurag{
+    width: 120px;
+    height: 78px;   
+}
+.itemsheadtext{
+    display: flex;
+    background: linear-gradient(0deg, #F5F5F7 0%, #F5F5F7 100%), #FFF;
+    width: 100%;
+    height: 95px;
+}
+#section2main{
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(0deg, #F5F5F7 0%, #F5F5F7 100%), #FFF;
+    
+  
+}
+#items2maindiv{
+      display: flex;
+      gap: 20px;
+      overflow: scroll;
+     padding-left: 140px;
+}
+.items-header-text1{
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 123.971% */
+    letter-spacing: 0.196px;  
+    font-size: 25.813px;
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.items-header-text2{
+    color: #6E6E73;
+    font-family: "Helvetica Neue";
+    font-size: 25.594px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 125.031% */
+    letter-spacing: 0.196px;
+}
+.items2background1{
+     background-image: url(./store-card-50-holiday-iphone-pro-202411_GEO_US.png);
+     min-width: 480px;
+     height: 500px;
+     background-position: center;
+     border-radius: 18px;
+     display: flex;
+     flex-direction: column;
+}
+.items2background2{
+    background-image: url(./store-card-50-holiday-watch-s10-202411.png);
+    min-width: 480px;
+    height: 500px;
+    background-position: center;
+    border-radius: 18px;
+}
+.items2background3{
+    background-image: url(./store-card-50-holiday-ipad-mini-202411.png);
+    min-width: 480px;
+    height: 500px;
+    background-position: center;
+    border-radius: 18px;
+}
+.items2background4{
+    background-image: url(./store-card-50-holiday-macbook-pro-202411.png);
+    min-width:480px;
+    height: 500px;
+    background-position: center;
+    border-radius: 18px;
+}
+.items2background5{
+    background-image: url(./store-card-40-iphone-16-202409_GEO_US.jpeg);
+    min-width:480px;
+    height: 500px;
+    background-position: center;
+    border-radius: 18px;
+}
+.items2background6{
+    background-image: url(./store-card-40-watch-ultra-202409_GEO_US.jpeg);
+    min-width:480px;
+    height: 500px;
+    background-position: center;
+    border-radius: 18px;
+}
+.items2background7{
+    background-image: url(./store-card-40-ipad-pro-202405.jpeg);
+    min-width:480px;
+    height: 500px;
+    background-position: center;
+    border-radius: 18px;
+}
+.items-text-main{
+    display: flex;
+    flex-direction: column;
+    padding: 31px 160px 384px 30px; 
+    
+}
+.items-text1{
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 25.594px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 125.031% */
+    letter-spacing: 0.196px;
+}
+.items-text2{
+    color: #B64400;
+    font-family: "Helvetica Neue";
+    font-size: 11.813px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+}
+.items-text1w{
+    color: #F5F5F7;
+    font-family: "Helvetica Neue";
+    font-size: 25.594px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 125.031% */
+    letter-spacing: 0.196px;
+}
+.items-text3w{
+    color: #B64400;
+    font-family: "Helvetica Neue";
+    font-size: 11.813px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+}
+.items-text3w{
+    color: #F5F5F7;
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 123.529% */
+    letter-spacing: -0.374px;
+}
+.store2navtextmain{
+     padding-left: 140px;
+     display: flex;
+}
+#section3{
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(0deg, #F5F5F7 0%, #F5F5F7 100%), #FFF;
+}
+#section3main{
+     display: flex;  
+     gap:20px;
+     padding-left: 140px;
+     padding-top:10px;
+     padding-bottom: 40px;
+     overflow: scroll;
+}
+.items3background1{
+    background-image: url(./store-card-40-holiday-engraving-202411.png);
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    border-radius: 18px;
+}
+#items3text1{
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 25.484px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 125.567% */
+    letter-spacing: 0.196px;
+    display: flex;
+    height: 66px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 179.4px;
+    display: flex;
+    flex-direction: column;
+    padding:53px 190px 380px 30px;
+}
+.items3background2{
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    width: 313px;
+    height: 500px;
+    flex-shrink: 0;
+}
+.items3img{
+    width: 230px;
+    height: 230px;
+    flex-shrink: 0;
+    display: flex;
+     padding-top: 71px;
+     padding-left: 41.5px;
+     padding-right: 41.5px;
+}
+.colorselectionbuttonmain{
+    display: flex;
+    padding: 25px 86px 21px 79px;
+    gap: 7px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+.items3textmain{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.items3text1{
+    color: #B64400;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: -0.12px;
+    padding-bottom: 6px;
+}
+.items3text1-1{
+    color: #B64400;
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: -0.12px;
+    padding-bottom: 6px;
+    padding-top:61px ;
+}
+.items3text2{
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px; /* 123.529% */
+    letter-spacing: -0.374px;
+}
+.items3text3{
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.224px;
+    padding-top:50px ;
+}
+.items3text3-1{
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.224px;
+    padding-top:29px ;
+}
+.items4background1{
+    background-image: url(./store-card-50-holiday-delivery-pickup-202411.png);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.items4text1{
+    display: flex;
+    width: 287.75px;
+    height: 130px;
+    flex-direction: column;
+    justify-content: center;
+    color: #1D1D1F;
+    font-size: 25.813px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 123.971% */
+    letter-spacing: 0.196px;
+    font-family: "Helvetica Neue";
+    padding: 53px 162.25px 317px 30px  ;
+    border-radius: 18px;
+}
+.items4text2background{
+    width: 313px;
+    height: 240px;
+    flex-shrink: 0; 
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}  
+.items4text2{
+    display: flex;
+    width: 227.37px;
+    height: 85px;
+    flex-direction: column;
+    justify-content: center;
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 22.125px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 126.554% */
+    letter-spacing: 0.216px;
+    padding-top: 82px;
+    padding-right: 55.63px;
+    padding-left: 30px;
+    
+}  
+
+#items4text2main{
+    display: grid;
+    grid-template-columns:repeat(2, 313px);
+    grid-template-rows: repeat(2, 240px);
+    gap: 20px;
+}
+.items4background4{
+    background-image: url(./store-card-50-holiday-trade-in-202411.png);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+#items4text4{
+    display: flex;
+    width: 200px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #6E6E73;
+    font-family: "Helvetica Neue";
+    font-size: 11.813px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+    padding-top: 31px;
+    padding-left: 30px;
+}
+.items4text4{
+    display: flex;
+    width: 287.75px;
+    height: 66px;
+    flex-direction: column;
+    justify-content: center;
+    color: #1D1D1F;
+    font-size: 25.813px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 123.971% */
+    letter-spacing: 0.196px;
+    font-family: "Helvetica Neue";
+    border-radius: 18px;
+    padding-top: 8px;
+    padding-right: 119.41px;
+    padding-left: 30px;
+    
+}
+.items4text4-1{
+    display: flex;
+    height: 41px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;  
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 123.529% */
+    width: 226.93px;
+    padding-left: 30px;
+    padding-top:9px ;
+}
+.items4background5{
+    background-image: url(./woman.jpeg);
+    height: 500px;
+    letter-spacing: -0.374px;
+    width: 480px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+#items4text4-2{
+    display: flex;
+    height: 66px;
+    width: 360px;
+    padding-top: 22px;
+    padding-left: 30px;
+    color: #1D1D1F;
+    font-family: "Helvetica Neue";
+    font-size: 25.156px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 127.205% */
+    letter-spacing: 0.196px;
+}
+.items5background1{
+    background-image: url(./store-card-50-holiday-apple-music-202411.png);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items5background2{
+    background-image: url(./store-card-50-holiday-apple-tv-202411.png);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+    
+}
+.items4text2-1{
+    color: #FFF;
+    font-family: "Helvetica Neue";
+    font-size: 25.813px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 123.971% */
+    letter-spacing: 0.196px;
+    display: flex;
+    width: 404.03px;
+    height: 66px;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 46px;
+
+}
+#items4text2-2{
+    display: flex;
+    width: 200px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Helvetica Neue";
+    font-size: 11.813px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+    padding-top: 31px;
+    padding-left: 30px;
+}
+.items5background3{
+    background-image: url(./store-card-50-subscriptions-202108_GEO_US.png);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items5background4{
+    background-image: url(./store-card-50-apple-intelligence-202410_GEO_US.png);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items5background5{
+    background-image: url(./apple\ care.jpeg);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items5background6{
+    background-image: url(./watch\ phone.jpeg);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items5background7{
+    background-image: url(./homepod.jpeg);
+    height: 500px;
+    width: 480px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items6background1{
+    background-image: url(./iphone-card-40-carriertrade-202409.png);
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items6background2{
+    background-image: url(./store-card-40-bts-edu-macbook-air-ipad-air-202406.png);
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items6background3{
+    background-image: url(./store-card-40-refurb-202408.png);
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items6background4{
+    background-image: url(./iphone-card-40-business-202409.png);
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items6background5{
+    background-image: url(./items6ipad.jpeg);
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}
+.items6background6{
+    background-image: url(./items6mC.jpeg);
+    height: 500px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    background-repeat: no-repeat;
+}

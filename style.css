@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+.headermain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+}
+.headermenu{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    padding: 0px 462px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+    background: rgba(245, 245, 247, 0.80);
+    backdrop-filter: blur(10px);  
+    gap:24px ; 
+    position: fixed; 
+    z-index: 1;
+}
+.menutext{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 500% */
+    letter-spacing: -0.28px; 
+}.headertext{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13.891px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.59px; /* 148.229% */
+    letter-spacing: -0.374px;
+}
+.headtextmain{
+    position: relative;
+    padding-top: 44px;
+    display: flex;
+    justify-content: center;
+    background: #FFF;
+    width: 100%;
+    height: 44px;
+    align-items: center;
+    gap: 6px;
+}
+.shopstyle{
+    color: #06C;
+    font-family: Inter;
+    font-size: 13.781px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.59px; /* 149.406% */
+    letter-spacing: -0.374px;
+}
+#section1main{
+    display: grid;
+    width:1920px;
+    grid-template-rows: 692px 692px 692px; 
+    row-gap: 12px;   
+}
+.iphone16pro-background{
+    background-image: url(./16pro.png);
+    background-position: center;
+    width: 100vw;
+}
+#navmain{
+    display: flex;
+    flex-direction: column;
+    gap: 19px ;
+}
+.iphone-head-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 55px ;
+ }
+.iphone-head-text1{
+    color: #F5F5F7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 51.406px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 116.717% */
+    letter-spacing: -0.28px;
+}
+.iphone-head-text2{
+    color: #F5F5F7;
+    font-family: Inter;
+    text-align: center;
+    font-style: normal;
+    line-height: 32px; /* 131.789% */
+    letter-spacing: 0.196px;
+    font-size: 24.281px;
+}
+.Learn-buy-main{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap:17.42px;
+}
+.Learn-more-button{
+    display: flex;
+    height: 44px;
+    border-radius: 980px;
+    background: #0071E3;
+    width: 130.72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.867px;
+    justify-content: center;
+    align-items: center;
+}
+.buy-button{
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 980px;
+    border: 1px solid #2997FF;
+    width: 73.2px;
+    color: #2997FF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.734px;   
+}
+.iphone16-background{
+    background-image: url(./iphone16.png);
+    background-position: center;
+    width: 100vw;
+}
+.Learn-more-button16{
+    display: flex;
+    height: 44px;
+    border-radius: 980px;
+    background: white;
+    width: 130.72px;
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.867px;
+    justify-content: center;
+    align-items: center;
+}
+.buy-button16{
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 980px;
+    border: 1px solid #fff;
+    width: 73.2px;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.734px;  
+ }
+ .zurh-background{
+    background-image: url(./Zurh.png);
+    background-position: center;
+    width: 100vw;
+ }
+ .iphone-head-text1zurh{
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 51.406px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 116.717% */
+    letter-spacing: -0.28px;
+}
+.iphone-head-text2zurh{
+    color: black;
+    font-family: Inter;
+    text-align: center;
+    font-style: normal;
+    line-height: 32px; /* 131.789% */
+    letter-spacing: 0.196px;
+    font-size: 24.281px;
+}
+#navmain-zurh{
+    display: flex;
+    flex-direction: column;
+    gap: 19px ;
+    padding-top: 450px;
+}
+#section2main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:repeat(3, 580px);
+    gap: 12px;
+}
+.iPad-background{
+    background-image: url(./Figure.png);
+    background-position: center;
+}
+.ipad-text{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17.883px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 139.799% */
+    letter-spacing: 0.231px;  
+}
+#Hello{
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 330px ;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    font-family: Inter;
+}
+.Airpods-background{
+    background-image: url(./headphone.png);
+    background-position: center;  
+}
+#navmain-airpods{
+    padding-top:401px ;
+}
+.Airpods-head-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.Airpods-text1{
+    color: #F5F5F7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36.25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 121.379% */
+}
+.Airpods-text2{
+    color: #F5F5F7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17.883px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 139.799% */
+    letter-spacing: 0.231px;
+}
+.iwatch-background{
+    background-image: url(./iwatch.png);
+    background-position: center; 
+}
+#navmain-iwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 17px;
+    padding-top:56px ;
+}
+.iwatch-head-text-main{
+    display: flex;
+    flex-direction: column;
+    gap: px ;
+}
+.iwatch-head-text{
+    display: flex;
+    gap: 1px;
+}
+.Watch-head-text2{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.375px;
+    font-style: normal;
+    font-weight: 600;
+}
+.iwatch-logo-text3{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.375px;
+    font-style: normal;
+    line-height: 25px; /* 136.054% */
+    letter-spacing: 0.231px;  
+}
+.mac-background{
+    background-image: url(./mac.png);
+    background-position: center; 
+}
+#navmain-mac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     gap:17px;
+}
+.mac-head-text{
+    gap: 4px;
+}
+.mac-head-text1{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36.406px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 120.858% */
+}
+.mac-head-text2{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18.375px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 136.054% */
+    letter-spacing: 0.231px;
+}
+.mac-head-text{
+    padding-top: 53px;
+}
+.trade-background{
+    background-image: url(./trade.png);
+    background-position: center;
+}
+#navmain-trade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top:58px;
+    gap: 17px;
+}
+.trade-head-text-main{
+    gap: 10px;
+}
+.trade-logo-text{
+    color: #1D1D1F;
+    font-family: Inter;
+    font-size: 18.867px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 132.505% */
+    letter-spacing: 0.231px;
+    display: flex;
+    width: 315.2px;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+.Learn-more-button-trade{
+    display: flex;
+    width: 145.41px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13.891px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 143.982% */
+    letter-spacing: -0.224px;
+    text-align: center;
+    border-radius: 980px;
+    background: #0071E3;
+}
+.card-background{
+    background-image: url(./card.png);
+    background-position: center;
+}
+.buy-button-apply{
+    display: flex;
+    width: 98.61px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 980px;
+    border: 1px solid #06C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13.781px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 145.125% */
+    letter-spacing: -0.224px;
+    color: #06C;
+}
+#applelogo1{
+    height: 40px;
+    width: 40px;
+}
+.card-head-text{
+    display: flex;
+    justify-content: center;
+}
+.Watch-head-text1{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35.406px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 120.858% */
+}
